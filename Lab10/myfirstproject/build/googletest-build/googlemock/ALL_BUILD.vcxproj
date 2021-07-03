@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C4ADA0A7-0EFC-30BE-9DD0-946AB8651F06}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googlemock\include;C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googlemock;C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googletest\include;C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googlemock\include;C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googlemock;C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googletest\include;C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googlemock\include;C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googlemock;C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googletest\include;C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googlemock\include;C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googlemock;C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googletest\include;C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googlemock\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Sergiu/Desktop/myfirstproject/build/googletest-src/googlemock/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\cmake-3.13.4-win64-x64\bin\cmake.exe -SC:/Users/Sergiu/Desktop/myfirstproject -BC:/Users/Sergiu/Desktop/myfirstproject/build --check-stamp-file C:/Users/Sergiu/Desktop/myfirstproject/build/googletest-build/googlemock/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Sergiu/Desktop/myfirstproject/build/googletest-src/googlemock/CMakeLists.txt;C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googlemock\CMakeLists.txt;C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googlemock\cmake\gmock.pc.in;C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googlemock\cmake\gmock_main.pc.in;D:\cmake-3.13.4-win64-x64\share\cmake-3.13\Modules\CheckIncludeFile.cmake;D:\cmake-3.13.4-win64-x64\share\cmake-3.13\Modules\CheckLibraryExists.cmake;D:\cmake-3.13.4-win64-x64\share\cmake-3.13\Modules\CheckSymbolExists.cmake;D:\cmake-3.13.4-win64-x64\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;D:\cmake-3.13.4-win64-x64\share\cmake-3.13\Modules\FindPackageMessage.cmake;D:\cmake-3.13.4-win64-x64\share\cmake-3.13\Modules\FindThreads.cmake;C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googlemock\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-build\googlemock\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Sergiu/Desktop/myfirstproject/build/googletest-src/googlemock/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\cmake-3.13.4-win64-x64\bin\cmake.exe -SC:/Users/Sergiu/Desktop/myfirstproject -BC:/Users/Sergiu/Desktop/myfirstproject/build --check-stamp-file C:/Users/Sergiu/Desktop/myfirstproject/build/googletest-build/googlemock/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Sergiu/Desktop/myfirstproject/build/googletest-src/googlemock/CMakeLists.txt;C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googlemock\CMakeLists.txt;C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googlemock\cmake\gmock.pc.in;C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googlemock\cmake\gmock_main.pc.in;D:\cmake-3.13.4-win64-x64\share\cmake-3.13\Modules\CheckIncludeFile.cmake;D:\cmake-3.13.4-win64-x64\share\cmake-3.13\Modules\CheckLibraryExists.cmake;D:\cmake-3.13.4-win64-x64\share\cmake-3.13\Modules\CheckSymbolExists.cmake;D:\cmake-3.13.4-win64-x64\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;D:\cmake-3.13.4-win64-x64\share\cmake-3.13\Modules\FindPackageMessage.cmake;D:\cmake-3.13.4-win64-x64\share\cmake-3.13\Modules\FindThreads.cmake;C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googlemock\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-build\googlemock\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Sergiu/Desktop/myfirstproject/build/googletest-src/googlemock/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\cmake-3.13.4-win64-x64\bin\cmake.exe -SC:/Users/Sergiu/Desktop/myfirstproject -BC:/Users/Sergiu/Desktop/myfirstproject/build --check-stamp-file C:/Users/Sergiu/Desktop/myfirstproject/build/googletest-build/googlemock/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Sergiu/Desktop/myfirstproject/build/googletest-src/googlemock/CMakeLists.txt;C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googlemock\CMakeLists.txt;C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googlemock\cmake\gmock.pc.in;C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googlemock\cmake\gmock_main.pc.in;D:\cmake-3.13.4-win64-x64\share\cmake-3.13\Modules\CheckIncludeFile.cmake;D:\cmake-3.13.4-win64-x64\share\cmake-3.13\Modules\CheckLibraryExists.cmake;D:\cmake-3.13.4-win64-x64\share\cmake-3.13\Modules\CheckSymbolExists.cmake;D:\cmake-3.13.4-win64-x64\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;D:\cmake-3.13.4-win64-x64\share\cmake-3.13\Modules\FindPackageMessage.cmake;D:\cmake-3.13.4-win64-x64\share\cmake-3.13\Modules\FindThreads.cmake;C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googlemock\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-build\googlemock\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Sergiu/Desktop/myfirstproject/build/googletest-src/googlemock/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\cmake-3.13.4-win64-x64\bin\cmake.exe -SC:/Users/Sergiu/Desktop/myfirstproject -BC:/Users/Sergiu/Desktop/myfirstproject/build --check-stamp-file C:/Users/Sergiu/Desktop/myfirstproject/build/googletest-build/googlemock/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Sergiu/Desktop/myfirstproject/build/googletest-src/googlemock/CMakeLists.txt;C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googlemock\CMakeLists.txt;C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googlemock\cmake\gmock.pc.in;C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googlemock\cmake\gmock_main.pc.in;D:\cmake-3.13.4-win64-x64\share\cmake-3.13\Modules\CheckIncludeFile.cmake;D:\cmake-3.13.4-win64-x64\share\cmake-3.13\Modules\CheckLibraryExists.cmake;D:\cmake-3.13.4-win64-x64\share\cmake-3.13\Modules\CheckSymbolExists.cmake;D:\cmake-3.13.4-win64-x64\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;D:\cmake-3.13.4-win64-x64\share\cmake-3.13\Modules\FindPackageMessage.cmake;D:\cmake-3.13.4-win64-x64\share\cmake-3.13\Modules\FindThreads.cmake;C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-src\googlemock\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-build\googlemock\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Sergiu\Desktop\myfirstproject\build\ZERO_CHECK.vcxproj">
+      <Project>{591D2F22-D76A-340C-AA6E-70B6891F4C6B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-build\googlemock\gmock.vcxproj">
+      <Project>{DEB3DE05-D922-3D55-B81F-0B65FCADA891}</Project>
+      <Name>gmock</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-build\googlemock\gmock_main.vcxproj">
+      <Project>{15E5CC5B-3B6E-3B3A-9AE4-7DC00657EF6B}</Project>
+      <Name>gmock_main</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-build\googletest\gtest.vcxproj">
+      <Project>{0548C521-AD18-3DCF-B007-2C6D94B1F050}</Project>
+      <Name>gtest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Sergiu\Desktop\myfirstproject\build\googletest-build\googletest\gtest_main.vcxproj">
+      <Project>{27F248E0-7F7B-3E50-99C0-567A84DD05DC}</Project>
+      <Name>gtest_main</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

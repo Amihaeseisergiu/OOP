@@ -1,0 +1,48 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <cmath>
+#include <string.h>
+using namespace std;
+
+#define MATRIX_HEIGHT 6
+#define MATRIX_WIDTH 5
+int Matrix[MATRIX_HEIGHT][MATRIX_WIDTH];
+
+bool Convert(unsigned int number, unsigned int toBase, char * result, unsigned int resultMaxSize)
+{
+    if(toBase<2 || toBase>16)return false;
+    int cont=-1;
+    while(number!=0)
+    {
+        int rest=number%toBase;
+        if(cont+1>resultMaxSize)return false;
+            else
+            {
+                cont++;
+                if(rest>=10)result[cont]=65+rest-10;
+                    else
+                        {
+                            char a[100];
+                            itoa(rest,a,10);
+                            result[cont]=a[0];
+                        }
+            }
+        number=number/toBase;
+    }
+    cont++;
+    result[cont]=NULL;
+    strrev(result);
+    return true;
+}
+
+int main()
+{
+    int n=10;
+    char rezultat[100];
+    cout<<Convert(n,16,rezultat,10)<<"\n";
+    cout<<rezultat;
+    return 0;
+}

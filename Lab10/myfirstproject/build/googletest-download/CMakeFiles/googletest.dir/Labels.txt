@@ -1,0 +1,14 @@
+# Target labels
+ googletest
+# Source files and their labels
+C:/Users/Sergiu/Desktop/myfirstproject/build/googletest-download/CMakeFiles/googletest
+C:/Users/Sergiu/Desktop/myfirstproject/build/googletest-download/CMakeFiles/53e9561de7bbe661f6e97d8043bfd092/googletest.rule
+C:/Users/Sergiu/Desktop/myfirstproject/build/googletest-download/CMakeFiles/eab4f441df1011ae6aa9bc0c0ed901f4/googletest-complete.rule
+C:/Users/Sergiu/Desktop/myfirstproject/build/googletest-download/CMakeFiles/92fcd69ac97e51efe0ecdb6633690c2a/googletest-install.rule
+C:/Users/Sergiu/Desktop/myfirstproject/build/googletest-download/CMakeFiles/92fcd69ac97e51efe0ecdb6633690c2a/googletest-mkdir.rule
+C:/Users/Sergiu/Desktop/myfirstproject/build/googletest-download/CMakeFiles/92fcd69ac97e51efe0ecdb6633690c2a/googletest-download.rule
+C:/Users/Sergiu/Desktop/myfirstproject/build/googletest-download/CMakeFiles/92fcd69ac97e51efe0ecdb6633690c2a/googletest-update.rule
+C:/Users/Sergiu/Desktop/myfirstproject/build/googletest-download/CMakeFiles/92fcd69ac97e51efe0ecdb6633690c2a/googletest-patch.rule
+C:/Users/Sergiu/Desktop/myfirstproject/build/googletest-download/CMakeFiles/92fcd69ac97e51efe0ecdb6633690c2a/googletest-configure.rule
+C:/Users/Sergiu/Desktop/myfirstproject/build/googletest-download/CMakeFiles/92fcd69ac97e51efe0ecdb6633690c2a/googletest-build.rule
+C:/Users/Sergiu/Desktop/myfirstproject/build/googletest-download/CMakeFiles/92fcd69ac97e51efe0ecdb6633690c2a/googletest-test.rule

@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1551805857 source:c:\users\sergiu\desktop\test\main.cpp
+	<iostream>
+	<BigNumber.h>
+
+1551801353 c:\users\sergiu\desktop\test\include\bignumber.h
+
+1551805824 source:c:\users\sergiu\desktop\test\src\bignumber.cpp
+	"BigNumber.h"
+	<string.h>
+	<algorithm>
+	<iostream>
+
+1551950962 source:d:\facultate\(eu)anul i\seminar\semestrul 2\poo\seminar3\test\main.cpp
+	<iostream>
+	<BigNumber.h>
+
+1551801353 d:\facultate\(eu)anul i\seminar\semestrul 2\poo\seminar3\test\include\bignumber.h
+
+1551950967 source:d:\facultate\(eu)anul i\seminar\semestrul 2\poo\seminar3\test\src\bignumber.cpp
+	"BigNumber.h"
+	<string.h>
+	<algorithm>
+	<iostream>
+

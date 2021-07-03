@@ -1,0 +1,36 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <cmath>
+
+using namespace std;
+
+#define MATRIX_HEIGHT 6
+#define MATRIX_WIDTH 5
+int Matrix[MATRIX_HEIGHT][MATRIX_WIDTH];
+
+void Circle(int* ptr,int cx,int cy,int ray)
+{
+    for(int i=0;i<MATRIX_HEIGHT;i++)
+    {
+        for(int j=0;j<MATRIX_WIDTH;j++)
+        {
+            double dist=ceil(sqrt((i-cx)*(i-cx)+(j-cy)*(j-cy)));
+            if(dist==ray)ptr[i*MATRIX_WIDTH+j]=1;
+        }
+    }
+}
+
+int main()
+{
+    Circle(&Matrix[0][0],2,2,2);
+    for(int i=0;i<MATRIX_HEIGHT;i++)
+    {
+        for(int j=0;j<MATRIX_WIDTH;j++)
+            cout<<Matrix[i][j]<<" ";
+        cout<<"\n";
+    }
+    return 0;
+}

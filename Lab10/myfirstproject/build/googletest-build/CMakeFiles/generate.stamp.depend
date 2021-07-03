@@ -1,0 +1,11 @@
+# CMake generation dependency list for this directory.
+C:/Users/Sergiu/Desktop/myfirstproject/build/CMakeFiles/3.13.4/CMakeCCompiler.cmake
+C:/Users/Sergiu/Desktop/myfirstproject/build/googletest-src/CMakeLists.txt
+D:/cmake-3.13.4-win64-x64/share/cmake-3.13/Modules/CMakeCInformation.cmake
+D:/cmake-3.13.4-win64-x64/share/cmake-3.13/Modules/CMakeCommonLanguageInclude.cmake
+D:/cmake-3.13.4-win64-x64/share/cmake-3.13/Modules/CMakeDependentOption.cmake
+D:/cmake-3.13.4-win64-x64/share/cmake-3.13/Modules/CMakeLanguageInformation.cmake
+D:/cmake-3.13.4-win64-x64/share/cmake-3.13/Modules/Compiler/MSVC-C.cmake
+D:/cmake-3.13.4-win64-x64/share/cmake-3.13/Modules/GNUInstallDirs.cmake
+D:/cmake-3.13.4-win64-x64/share/cmake-3.13/Modules/Platform/Windows-MSVC-C.cmake
+D:/cmake-3.13.4-win64-x64/share/cmake-3.13/Modules/Platform/Windows-MSVC.cmake

@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+C:/Users/Sergiu/Desktop/myfirstproject/build/googletest-download/CMakeFiles/3.13.4/CMakeSystem.cmake
+C:/Users/Sergiu/Desktop/myfirstproject/build/googletest-download/CMakeLists.txt
+C:/Users/Sergiu/Desktop/myfirstproject/build/googletest-download/googletest-prefix/tmp/googletest-cfgcmd.txt.in
+D:/cmake-3.13.4-win64-x64/share/cmake-3.13/Modules/CMakeGenericSystem.cmake
+D:/cmake-3.13.4-win64-x64/share/cmake-3.13/Modules/CMakeInitializeConfigs.cmake
+D:/cmake-3.13.4-win64-x64/share/cmake-3.13/Modules/CMakeSystemSpecificInformation.cmake
+D:/cmake-3.13.4-win64-x64/share/cmake-3.13/Modules/CMakeSystemSpecificInitialize.cmake
+D:/cmake-3.13.4-win64-x64/share/cmake-3.13/Modules/ExternalProject.cmake
+D:/cmake-3.13.4-win64-x64/share/cmake-3.13/Modules/FindGit.cmake
+D:/cmake-3.13.4-win64-x64/share/cmake-3.13/Modules/FindPackageHandleStandardArgs.cmake
+D:/cmake-3.13.4-win64-x64/share/cmake-3.13/Modules/FindPackageMessage.cmake
+D:/cmake-3.13.4-win64-x64/share/cmake-3.13/Modules/Platform/Windows.cmake
+D:/cmake-3.13.4-win64-x64/share/cmake-3.13/Modules/Platform/WindowsPaths.cmake
+D:/cmake-3.13.4-win64-x64/share/cmake-3.13/Modules/RepositoryInfo.txt.in

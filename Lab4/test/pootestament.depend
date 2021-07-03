@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1552491111 source:d:\an 1 sem 2\pooclasses\pootestament\main.cpp
+	<iostream>
+	<Container.h>
+
+1552490398 d:\an 1 sem 2\pooclasses\pootestament\include\container.h
+
+1552490990 source:d:\an 1 sem 2\pooclasses\pootestament\src\container.cpp
+	"Container.h"
+	<iostream>
+
+1552514822 source:c:\users\sergiu\downloads\main.cpp
+	<iostream>
+	<Container.h>
+
+1552515150 c:\users\sergiu\downloads\include\container.h
+
+1552515173 source:c:\users\sergiu\downloads\src\container.cpp
+	"Container.h"
+	<iostream>
+
+1552563278 source:c:\users\sergiu\desktop\test\src\container.cpp
+	"Container.h"
+	<iostream>
+
+1552515150 c:\users\sergiu\desktop\test\include\container.h
+
+1552579142 source:c:\users\sergiu\desktop\test\main.cpp
+	<iostream>
+	<Container.h>
+
